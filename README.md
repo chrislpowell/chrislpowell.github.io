@@ -1,15 +1,19 @@
 # Standing in Reality
 
-This repository hosts the public-facing materials for *Standing in Reality* —  
-a framework focused on structure, autonomy, and ethical meaning-making.
+This repository hosts the introductory website for *Standing in Reality*, an
+ongoing philosophical project concerned with meaning, identity, and experience.
 
-The project includes:
-- A primary manuscript
-- A companion text intended for non-academic readers
-- Supporting materials and future follow-up work
+The public site contains:
 
-The live site is available at:  
-https://standinginreality.org
+- A brief introduction to the project
+- A note on reading at your own pace
+- An optional support page
 
-This repository is intentionally minimal.  
-Discussion and engagement are handled outside the codebase.
+The papers are not included in this repository. The site makes no commitment to a
+publication schedule.
+
+The live site is available at [standinginreality.org](https://standinginreality.org).
+
+This is a static HTML site. Shared presentation styles live in `styles.css`;
+there is no build step. Discussion and engagement are handled outside the codebase.
+

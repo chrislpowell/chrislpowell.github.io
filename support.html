@@ -1,77 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support — Standing in Reality</title>
-
-  <style>
-    :root {
-      color-scheme: dark;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #08090b;
-      color: #e8e8e6;
-      font-size: 18px;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; line-height: 1.8; }
-    main {
-      width: 100%;
-      max-width: 44rem;
-      margin: 0 auto;
-      padding: clamp(2.5rem, 8vw, 5.5rem) clamp(1.25rem, 5vw, 2.5rem);
-      overflow-wrap: break-word;
-    }
-    h1 {
-      font-size: clamp(1.8rem, 6vw, 2.4rem);
-      font-weight: 550;
-      line-height: 1.2;
-      letter-spacing: -0.025em;
-      margin: 0 0 2rem;
-      text-wrap: balance;
-    }
-    p { margin: 0 0 1.6rem; }
-    a {
-      color: #accff0;
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 0.22em;
-    }
-    a:hover { color: #d4e7fa; }
-    a:focus-visible {
-      outline: 2px solid currentColor;
-      outline-offset: 5px;
-      border-radius: 2px;
-    }
-    .reading-link { margin-block: 2rem; }
-    .back {
-      border-top: 1px solid #303238;
-      margin-top: 2.75rem;
-      padding-top: 1.25rem;
-      font-size: 0.95rem;
-    }
-    .support-box {
-      margin-block: 2rem;
-      padding: 1.25rem;
-      border: 1px solid #303238;
-      border-radius: 8px;
-      background: #101215;
-    }
-    .support-box p:last-child { margin-bottom: 0; }
-    .support-link { display: inline-block; margin-bottom: 1rem; }
-    @media print {
-      :root { color-scheme: light; background: #fff; color: #000; font-size: 12pt; }
-      body { line-height: 1.5; }
-      main { max-width: none; padding: 0; }
-      h1 { font-size: 22pt; }
-      a { color: #000; }
-      .support-box { background: transparent; border-color: #777; }
-    }
-  </style>
+  <meta name="description" content="Optional support for Standing in Reality, without access tiers, priority, or obligation.">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <main>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-shell">
+    <nav class="site-nav" aria-label="Site navigation">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how-to-read.html">Reading note</a></li>
+          <li><a href="support.html" aria-current="page">Optional support</a></li>
+      </ul>
+    </nav>
+    <main id="main-content" tabindex="-1">
     <h1>Support</h1>
 
     <p>This work is shared freely, without expectation.</p>
@@ -87,7 +33,7 @@
     <div class="support-box">
       <p><strong>Support link</strong></p>
       <a class="support-link" href="https://paypal.me/Standinginreality">
-        Open support page
+        Support via PayPal (external link)
       </a>
       <p>
         (If you prefer not to open external links, you can simply return to the main page.)
@@ -97,6 +43,9 @@
     <p class="back">
       <a href="index.html">← Back to home</a>
     </p>
-  </main>
+  
+    </main>
+  </div>
 </body>
 </html>
+
